@@ -11,17 +11,6 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
-  get '/aboutus' do
-    erb :aboutus
-  end
-  
-  get '/index' do
-    erb :index
-  end  
-  
-  get '/quiz2' do
-    erb :quiz2
-  end  
   
   post '/results' do
     @result = result(params[:activity], params[:time], params[:price])
