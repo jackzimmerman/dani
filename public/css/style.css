@@ -33,9 +33,10 @@ p {
   .parallax-container .section {
     position: absolute;
     top: 40%;
+    
   }
   #index-banner .section {
-    top: 10%;
+    top: 10%
   }
 }
 
